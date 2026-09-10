@@ -1,14 +1,14 @@
 # Avaliação Parcial 1 (AP1) - Fake Store SPA
 
-Trabalho desenvolvido para a disciplina de **Aplicações Front-end** do curso de Análise e Desenvolvimento de Sistemas (ADS) da **ULBRA Torres**.  
-**Professor:** Juliano Ramos Matos  
-**Aluno:** [Seu Nome Aqui]  
+Trabalho desenvolvido para a disciplina de Aplicações Front-end do curso de Análise e Desenvolvimento de Sistemas (ADS) da ULBRA Torre.  
+Professor: Juliano Ramos Matos  
+Aluno: Adalicio Jr.  
 
 ---
 
 ## Sobre o Projeto
 
-O objetivo deste trabalho foi criar uma SPA (Single Page Application) simples utilizando apenas **HTML, CSS e JavaScript puro (Vanilla)**, consumindo os produtos da [Fake Store API](https://fakestoreapi.com/products).
+O objetivo deste trabalho foi criar uma SPA (Single Page Application) simples utilizando apenas HTML, CSS e JavaScript puro, consumindo os produtos da [Fake Store API](https://fakestoreapi.com/products).
 
 A aplicação não utiliza frameworks (como React ou Vue) nem bibliotecas prontas. Para organizar o código, separei tudo em módulos ES6 (`import` e `export`), dividindo as responsabilidades de cada parte do sistema.
 
@@ -62,7 +62,7 @@ Trabalho Front/
 
 Como o projeto utiliza módulos ES6 (`type="module"`), os navegadores modernos bloqueiam o carregamento se o arquivo `index.html` for aberto diretamente com dois cliques (por conta da política de segurança de arquivos locais). É necessário rodar com um servidor local:
 
-1. Abra a pasta do projeto no **VS Code**.
-2. Tenha instalada a extensão **Live Server**.
-3. Clique com o botão direito no arquivo `index.html` e escolha a opção **"Open with Live Server"**.
+1. Abra a pasta do projeto no VS Code.
+2. Tenha instalada a extensão Live Server.
+3. Clique com o botão direito no arquivo `index.html` e escolha a opção "Open with Live Server".
 4. O projeto vai abrir automaticamente no seu navegador padrão (geralmente em `http://127.0.0.1:5500`).
